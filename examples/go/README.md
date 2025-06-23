@@ -37,7 +37,6 @@ This example demonstrates batching multiple Ethereum calls using Multicall3:
 1. Fetches DAI token symbol
 2. Fetches DAI token decimals
 3. Fetches Vitalik's DAI balance
-4. Fetches Vitalik's ETH balance (separately, as it's not a contract call)
 
 The example shows how to:
 - Pack multiple contract calls into a single multicall
@@ -53,7 +52,6 @@ Block Number: 12345678
 DAI Symbol: DAI
 DAI Decimals: 18
 Vitalik's DAI balance: 1234.567890123456789000
-Vitalik's ETH balance: 5678.901234567890123456
 ```
 
 ## Key Differences from Other Examples
